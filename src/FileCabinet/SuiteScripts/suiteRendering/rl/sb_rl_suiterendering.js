@@ -7,7 +7,7 @@
  * @author Budy Sutjijati
  * @see https://www.linkedin.com/in/budysutjijati/
  *
- * sb_rl_suitetransactionrendering.js
+ * sb_rl_suiterendering.js
  *
  * 888888b.                 888                .d8888b.           888     d8b d8b  d8b          888    d8b
  * 888  "88b                888               d88P  Y88b          888     Y8P Y8P  Y8P          888    Y8P
@@ -23,7 +23,7 @@
  *
  */
 
-define(['N/render', 'N/log', 'N/https', 'N/encode', 'N/format',  '../lib/days/dayjs.min', '../lib/days/plugin/customParseFormat'], (render, log, https, encode, format, dayjs, customParseFormat) => {
+define(['N/render', 'N/log', 'N/https', 'N/format',  '../lib/days/dayjs.min', '../lib/days/plugin/customParseFormat'], (render, log, https, format, dayjs, customParseFormat) => {
     /**
      * Handles GET requests for transactions and statements.
      * Determines the correct handler based on the "type" parameter.
