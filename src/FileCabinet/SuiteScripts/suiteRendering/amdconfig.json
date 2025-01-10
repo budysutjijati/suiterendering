@@ -1,0 +1,6 @@
+{
+  "paths": {
+    "serverside_lib": "/SuiteScripts/suiteRendering/lib/serverside_lib",
+    "lodash": "/SuiteScripts/suiteRendering/lib/lodash.js"
+  }
+}

@@ -1,0 +1,22 @@
+<restlet scriptid="customscript_sb_rl_suiterendering">
+  <description>This Restlet takes a transaction id and gets the base64 encoded string from the actual PDF print.</description>
+  <isinactive>F</isinactive>
+  <name>SB RL Suite Rendering</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/suiteRendering/rl/sb_rl_suiterendering.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_sb_rl_suiterendering">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole>[scriptid=customrole_sb_custome_developer]</audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>RELEASED</status>
+      <title>SB RL SuiteTransaction Rendering</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>
